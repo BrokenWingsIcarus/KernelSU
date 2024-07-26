@@ -57,3 +57,4 @@ jobs:
             manager/*.apk
             AnyKernel3-*.zip
             boot-images-*/Image-*/*.img.gz
+          tag_name: 123  
