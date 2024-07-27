@@ -22,9 +22,6 @@ jobs:
       matrix:
         include:
           - version: "6.1"
-            sub_level: 68
-            os_patch_level: 2024-03
-          - version: "6.1"
             sub_level: 75
             os_patch_level: 2024-05
     uses: ./.github/workflows/gki-kernel.yml
